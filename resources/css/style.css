@@ -1,0 +1,94 @@
+/* Capstone css - universal style*/
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.5em;
+}
+/* Header */
+.header{
+  background-color: #a3dedf;
+}
+.header > .container-flex{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  padding: 1rem;
+}
+
+.header img{
+  /* height resizes logo image*/
+  height: 2.5rem;
+  /*padding-right: 1rem;*/
+  margin: 0 0.5rem 0 1.33rem;
+}
+
+span.title-logo1{
+  color: #4a4a4a;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+span.title-logo2{
+  color: #ddd;
+  font-weight: normal;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 0 0 auto;
+}
+
+nav{
+  padding: 0.75rem 1rem;
+  color: #e8e8e8;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+/* Banner */
+.main-banner{
+  background-color: #d8d8d8;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 47rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-banner > .banner-image{
+  width: 60%;
+  padding: 1.77rem 2.22rem 1.77rem 1.33rem;
+}
+.banner-text{
+  line-height: 3rem;
+  width: 25%;
+  padding-right: 1.5rem;
+}
+.banner-text h1{
+  font-size: 3rem;
+  color: #4a4a4a;
+}
+.banner-text h2{
+  font-size: 2rem;
+}
+
+.main-banner button{
+  background-color: #4a4a4a;
+  width: 100%;
+  color: #fff;
+  height: auto;
+  font-size: 1.2rem;
+  padding: .5rem;
+}
