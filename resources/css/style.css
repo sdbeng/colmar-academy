@@ -61,27 +61,35 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 47rem;
+  /*height: 47rem;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .main-banner > .banner-image{
-  width: 60%;
+  /*width: 60%;*/
   padding: 1.77rem 2.22rem 1.77rem 1.33rem;
 }
+
+.banner-image img{
+    height: 42rem;
+}
 .banner-text{
-  line-height: 3rem;
-  width: 25%;
-  padding-right: 1.5rem;
+  padding-right: 2.6rem;
 }
 .banner-text h1{
   font-size: 3rem;
   color: #4a4a4a;
+  line-height: 3rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
 }
 .banner-text h2{
-  font-size: 2rem;
+  font-size: 2.4rem;
+  color: #4a4a4a;
+  line-height: 2rem;
+  padding-bottom: 1rem;
 }
 
 .main-banner button{
@@ -90,5 +98,13 @@ li {
   color: #fff;
   height: auto;
   font-size: 1.2rem;
-  padding: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* portfolio section */
+.information-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
