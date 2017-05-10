@@ -106,9 +106,6 @@ li {
 .information-section{
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
-  padding: 0rem;
-
 }
 
 .column-flex{
@@ -116,12 +113,13 @@ li {
   flex-direction: column;
   justify-content: space-around;
 }
+
 .main-feature-section{
-  /*flex:1;*/
+  flex:1;
   padding: 1.77rem 1.33rem;
-  /*margin: 0 1.25rem;*/
   border:1px solid red;
 }
+
 .main-feature-section .center{
   /*text-align: left;*/
 }
@@ -165,5 +163,5 @@ li {
 }
 
 .flex-item img{
-  width: 35%;
+  /*width: 35%;*/
 }
