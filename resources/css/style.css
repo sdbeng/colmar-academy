@@ -112,6 +112,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-left: 0.88rem;
 }
 
 .main-feature-section{
@@ -141,14 +142,16 @@ li {
   font-size: 3.5rem;
   font-weight: bold;
   color: #4a4a4a;
+  text-align: justify;
 }
 
 .main-feature-section h2{
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 300;
-  color: #4a4a4a;
+  color: #979797;
   padding-bottom: 1rem;
+  text-align: justify;
 }
 
 .main-feature-section h3{
@@ -156,6 +159,7 @@ li {
   font-weight: bold;
   color: #4a4a4a;
   margin-top: 5%;
+  text-align: justify;
 }
 
 .flex-item{
@@ -166,8 +170,12 @@ li {
   /*width: 35%;*/
 }
 
+.content-item{
+  padding-left: 1.5rem;
+}
+
 .content-item h3{
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #4a4a4a;
   font-weight: bold;
   padding-bottom: 1rem;
@@ -177,10 +185,63 @@ li {
   font-size: 1.2rem;
   color: #4a4a4a;
   padding-bottom: 2rem;
+  line-height: 1.9rem;
 }
 
 .content-item span a{
   color: #5d90dc;
   text-decoration: none;
   font-size: 1.3rem;
+}
+
+/* Learning courses section */
+.learning-section{
+  padding: 1.77rem 1rem;
+  background-color: #ddd;
+
+}
+
+.learning-section h1{
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+.courses-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.center{
+  text-align: center;
+}
+
+.course-content{
+  padding-left: 2rem 0.88rem;
+}
+
+.course-content h2{
+  font-size: 2rem;
+  color: #4a4a4a;
+  font-weight: bold;
+  padding-top: 0.88rem;
+  padding-bottom: 0.88rem;
+}
+
+.course-content h3{
+  font-size: 1.6rem;
+  color: #979797;
+  /*font-weight: bold;*/
+  padding-top: 0.88rem;
+  padding-bottom: 0.88rem;
+}
+.course-content span{
+  font-size: 1.3rem;
+  color: #979797;
+  /*font-weight: bold;*/
+  padding-top: 0.88rem;
+  padding-bottom: 1.33rem;
+  margin-bottom: 1.2rem;
 }
