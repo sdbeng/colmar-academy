@@ -165,3 +165,22 @@ li {
 .flex-item img{
   /*width: 35%;*/
 }
+
+.content-item h3{
+  font-size: 2rem;
+  color: #4a4a4a;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.content-item h4{
+  font-size: 1.2rem;
+  color: #4a4a4a;
+  padding-bottom: 2rem;
+}
+
+.content-item span a{
+  color: #5d90dc;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
