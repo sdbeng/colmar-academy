@@ -103,8 +103,67 @@ li {
 }
 
 /* portfolio section */
-.information-flex{
+.information-section{
   display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  padding: 0rem;
+
+}
+
+.column-flex{
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+}
+.main-feature-section{
+  /*flex:1;*/
+  padding: 1.77rem 1.33rem;
+  /*margin: 0 1.25rem;*/
+  border:1px solid red;
+}
+.main-feature-section .center{
+  /*text-align: left;*/
+}
+
+.main-feature-section .image-container{
+  width: 60%;
+}
+
+.main-feature-section img{
+  height: 31.2rem;
+}
+
+.main-feature-section .content{
+  padding: 2.5rem 0;
+}
+
+.main-feature-section h1{
+  padding-bottom: 1.33rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.main-feature-section h2{
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #4a4a4a;
+  padding-bottom: 1rem;
+}
+
+.main-feature-section h3{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-top: 5%;
+}
+
+.flex-item{
+  display: flex;
+}
+
+.flex-item img{
+  width: 35%;
 }
