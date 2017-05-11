@@ -274,10 +274,40 @@ li {
   font-size: 3rem;
   margin-bottom: 4rem;
 }
+.main-exhibit-section h1{
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 2.3rem;
+  margin-bottom: 4rem;
+}
 
 .exhibit-flex-container{
   display: flex;
 }
 
+.content{
+  text-align: left;
+}
 
 /* Footer*/
+footer{
+
+
+}
+.copyright{
+
+}
+.content-footer{
+  display: flex;
+  padding: 0.8rem 0.1rem 1.75rem 1.33rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #979797;
+}
+
+footer nav ul a{
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+  color: #979797;
+}
