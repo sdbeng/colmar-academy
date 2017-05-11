@@ -118,7 +118,7 @@ li {
 .main-feature-section{
   flex:1;
   padding: 1.77rem 1.33rem;
-  border:1px solid red;
+  border-right:1px solid #ddd;
 }
 
 .main-feature-section .center{
@@ -207,6 +207,7 @@ li {
   font-size: 3rem;
   margin-bottom: 4rem;
 }
+
 .courses-section{
   flex:1;
   display: flex;
@@ -260,3 +261,23 @@ li {
   padding-bottom: 1.33rem;
   margin-bottom: 1.2rem;
 }
+
+/* exhibit section*/
+.exhibit-section{
+  padding: 1.77rem 1rem;
+  border-bottom: 2px solid #ddd;
+}
+
+.exhibit-section h1{
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.exhibit-flex-container{
+  display: flex;
+}
+
+
+/* Footer*/
