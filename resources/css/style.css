@@ -208,20 +208,35 @@ li {
   margin-bottom: 4rem;
 }
 .courses-section{
+  flex:1;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .center{
   text-align: center;
 }
 
-.course-content{
-  padding-left: 2rem 0.88rem;
+.courses-flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-content:
 }
 
+.course-content{
+  padding: 1.4rem 0.88rem;
+}
+
+.course{
+  padding-bottom: 1.5rem;
+  background-color: #fff;
+}
+
+.course-image-container .course-content{
+  background-color: #fff;
+}
 .course-content h2{
   font-size: 2rem;
   color: #4a4a4a;
