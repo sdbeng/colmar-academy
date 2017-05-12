@@ -264,31 +264,60 @@ li {
 
 /* exhibit section*/
 .exhibit-section{
-  padding: 1.77rem 1rem;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 1px solid #e6e8e8;
+  padding-bottom: 1.77rem;
+}
+.exhibit-container{
+  width:100%;
 }
 
-.exhibit-section h1{
-  color: #4a4a4a;
-  font-weight: bold;
+.title{
   font-size: 3rem;
-  margin-bottom: 4rem;
-}
-.main-exhibit-section h1{
-  color: #4a4a4a;
   font-weight: bold;
-  font-size: 2.3rem;
-  margin-bottom: 4rem;
+  color: #4a4a4a;
+  padding-top: 1.77rem;
+  padding-bottom: 1.77rem;
 }
-
-.exhibit-flex-container{
+.main-exhibit-section{
   display: flex;
+  justify-content: space-between;
 }
 
-.content{
-  text-align: left;
+.video-flex{
+  flex: 1;
+  padding-left: 1.33rem;
+  padding-top: 0.88rem;
 }
 
+.video-flex h1{
+  color: #4a4a4a;
+  font-size: 2.0rem;
+  font-weight:900;
+  padding-top: 1.33rem;
+  padding-bottom: 1.33rem;
+}
+
+.video-flex h2{
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #979797;
+  padding-bottom: 1rem;
+  /*text-align: justify;*/
+}
+.column-flex-exhibit{
+  flex:1;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 0.88rem;
+}
+.flex-item{
+  display: flex;
+  align-items: center;
+  padding: 0.88rem;
+}
+
+.
 /* Footer*/
 footer{
 
