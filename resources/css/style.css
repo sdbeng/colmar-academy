@@ -162,14 +162,6 @@ li {
   text-align: justify;
 }
 
-.flex-item{
-  display: flex;
-}
-
-.flex-item img{
-  /*width: 35%;*/
-}
-
 .content-item{
   padding-left: 1.5rem;
 }
@@ -183,7 +175,7 @@ li {
 
 .content-item h4{
   font-size: 1.2rem;
-  color: #4a4a4a;
+  color: #7c7c7c;
   padding-bottom: 2rem;
   line-height: 1.9rem;
 }
@@ -310,14 +302,24 @@ li {
   flex-direction: column;
   justify-content: space-around;
   padding-left: 0.88rem;
+  margin-top: 0.88rem;
 }
-.flex-item{
+.flex-item-cell{
   display: flex;
   align-items: center;
   padding: 0.88rem;
 }
+.flex-item-cell img{
+  padding: 0.88rem;
+}
+.column-flex-exhibit .thesis{
+  background-color: #d8d8d8;
+}
 
-.
+.video-container video{
+  width: 100%;
+}
+
 /* Footer*/
 footer{
 
